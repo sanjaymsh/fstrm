@@ -7,6 +7,11 @@ os:
 matrix:
   include:
     - os: linux
+      arch: amd64
+      dist: trusty
+      sudo: required
+    - os: linux
+      arch: ppc64le
       dist: trusty
       sudo: required
 
